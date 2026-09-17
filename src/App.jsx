@@ -1,4 +1,5 @@
 import React from 'react'
+import car from "./assets/car.jpg";
 
 const App = () => {
   return (
@@ -39,7 +40,7 @@ const App = () => {
         </div>
        
         <div className="about-image">
-            <img src="./../sample/car.jpg" alt="about image" />
+            <img src={car} alt="about image" />
         </div>
     </section>
     {/* <!-- TESTIMONY --> */}
