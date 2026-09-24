@@ -1,18 +1,19 @@
 import React from 'react'
 import "./Footer.css";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <div>
       {/* <!--Footer--> */}
 
-    <footer class="footer">
+    <footer className="footer">
 
-        <div class="footer-container">
+        <div className="footer-container">
 
             {/* <!-- about --> */}
 
-            <div class="footer-box">
+            <div className="footer-box">
 
                 <h2>Our digital skill Academy</h2>
                 <p>
@@ -21,20 +22,20 @@ const Footer = () => {
             </div>
 
             {/* <!-- Quick links --> */}
-            <div class="footer-box">
+            <div className="footer-box">
 
                 <h3>Quick Links</h3>
 
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Courses</a>
-                <a href="#">Contact</a>
+                <p>Home</p>
+                <p>About</p>
+                <p>Courses</p>
+                <p>Contact</p>
 
             </div>
 
             {/* <!-- Contact --> */}
 
-            <div class="footer-box">
+            <div className="footer-box">
 
                 <h3>Contact Us</h3>
 
@@ -47,7 +48,7 @@ const Footer = () => {
 
         {/* <!-- COPYRIGHT --> */}
              
-            <div class="copyright">
+            <div className="copyright">
                 
                 <p>&copy;  2026 Our Digital Skills Academy, All Rights Reserved</p>
 

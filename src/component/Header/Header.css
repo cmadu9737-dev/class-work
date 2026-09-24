@@ -3,8 +3,7 @@ section header{
     justify-content: right;
     background-color: black;
     height: 6.6vh;
-    width: 100%;
-    position: fixed;
+    width: 100%;    
     margin-right: 20px;
 }
 .nav-links-text{
